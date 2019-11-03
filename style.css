@@ -1,0 +1,197 @@
+body
+{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+nav
+{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    background-color: #1c74b2;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+.menu
+{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    font-size: 18px;
+    min-height: 40px;
+    line-height: 200%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.menu > li
+{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px dashed #0a2b42;
+
+}
+@media screen and (max-width: 700px){
+    .menu{
+        flex-direction: column;
+    }
+}
+.menu > li:first-child
+{
+border-left: 1px dashed #0a2b42;
+}
+.menu a
+{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.menu a:hover
+{
+    color: #0a2b42
+   
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#about 
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 140%;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #39a5f1;
+        
+}
+
+.foto
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: 0.5s;
+    color: #39a5f1;
+
+}
+.foto:hover
+{
+    transform: scale(1.05);
+}
+
+#skills
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45%;
+    margin: auto;
+    color:#39a5f1;
+    font-size: 140%;
+}
+    
+.skills img
+{
+    width: 25%;
+    height: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #39a5f1;
+    margin-bottom: 10px;
+}
+#hobby
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+
+#contact
+{
+    text-align:center;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+
+}
+.fb
+{
+    width: 30%;
+    background-color:#4668b3;
+    margin: 10px;
+    height: 142px;
+    float:left; 
+}
+.fb:hover
+{
+    background-color:#3557a2
+}
+.tw
+{
+    width: 30%;
+    background-color:#3095d3;
+    margin: 10px;
+    height: 142px;
+    float:left; 
+}
+.tw:hover
+{
+    background-color:#2084c2
+}
+.mail
+{
+    width: 30%;
+    background-color:#bbbbbb;
+    margin: 10px;
+    height: 142px;
+    float:left; 
+}
+.mail:hover
+{
+    background-color:#666666
+}
+
+a.sociallink
+{
+color: #ffffff;
+text-decoration: none;
+}
+.footer
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center ;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+a.footerlink
+{
+    color: #ffffff;
+    text-decoration: none; 
+}
+
